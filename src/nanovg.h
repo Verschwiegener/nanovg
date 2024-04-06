@@ -157,6 +157,9 @@ void nvgBeginFrame(NVGcontext* ctx, float windowWidth, float windowHeight, float
 // Cancels drawing the current frame.
 void nvgCancelFrame(NVGcontext* ctx);
 
+//Flushes Render State
+void nvgFlushRenderer(NVGcontext* ctx);
+
 // Ends drawing flushing remaining render state.
 void nvgEndFrame(NVGcontext* ctx);
 
