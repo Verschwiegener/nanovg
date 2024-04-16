@@ -395,7 +395,7 @@ void nvgCancelFrame(NVGcontext* ctx)
 	ctx->params.renderCancel(ctx->params.userPtr);
 }
 
-void nvgFlushRenderer(NVGcontext* ctx)
+void nvgFlushFrame(NVGcontext* ctx)
 {
 	ctx->params.renderFlush(ctx->params.userPtr);
 }
